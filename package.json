@@ -1,0 +1,57 @@
+{
+  "name": "@shubham0x13/ffbeast-wheel-webhid-api",
+  "version": "0.1.0",
+  "description": "WebHID based API for FFBeast Wheel",
+  "keywords": [
+    "webhid",
+    "hid",
+    "ffbeast",
+    "wheel",
+    "force-feedback",
+    "ffb",
+    "sim-racing",
+    "typescript"
+  ],
+  "homepage": "https://github.com/shubham0x13/ffbeast-wheel-webhid-api#readme",
+  "bugs": {
+    "url": "https://github.com/shubham0x13/ffbeast-wheel-webhid-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shubham0x13/ffbeast-wheel-webhid-api.git"
+  },
+  "license": "MIT",
+  "author": "Shubham Patel",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0",
+    "watch": "tsdown --watch"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.8",
+    "@types/w3c-web-hid": "^1.0.6",
+    "tsdown": "^0.18.4",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
