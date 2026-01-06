@@ -38,6 +38,7 @@
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build",
     "test": "echo \"No tests specified\" && exit 0",
     "watch": "tsdown --watch"
