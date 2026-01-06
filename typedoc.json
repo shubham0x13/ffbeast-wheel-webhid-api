@@ -1,0 +1,7 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "out": "docs",
+  "name": "FFBeast Wheel WebHID API",
+  "entryPoints": ["./src/index.ts"],
+  "excludeInternal": true
+}
