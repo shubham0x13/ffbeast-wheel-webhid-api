@@ -21,11 +21,11 @@ This library is a TypeScript rewrite of the original C/C++ API, adapted to use t
 
 ## Browser Support
 
+> **Note:** Supported in all modern Chromium-based browsers (e.g., Chrome, Edge, Opera, Brave, etc).
+
 | Browser        | Supported |
 | -------------- | --------- |
-| Google Chrome  | ✅        |
-| Microsoft Edge | ✅        |
-| Opera          | ✅        |
+| Chromium-based | ✅        |
 | Firefox        | ❌        |
 | Safari         | ❌        |
 
