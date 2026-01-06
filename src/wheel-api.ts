@@ -352,7 +352,7 @@ export class WheelApi extends EventEmitter<WheelEvents> {
   /**
    * Sends the firmware activation license key to the device.
    * Expected format: "XXXXXXXX-XXXXXXXX-XXXXXXXX" (Hex strings)
-   * @param licenseStr - The license key string.
+   * @param license - The license key string.
    * @returns `true` if the format was valid and sent, `false` otherwise.
    */
   public async sendFirmwareActivation(license: string): Promise<boolean> {

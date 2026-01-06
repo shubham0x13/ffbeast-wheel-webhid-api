@@ -131,6 +131,10 @@ export enum SettingField {
   IntegratedSpringStrength = 43,
 }
 
+/**
+ * Binary field type identifiers for parsing HID reports.
+ * @internal
+ */
 export enum FieldType {
   Uint8,
   Int8,
@@ -141,8 +145,12 @@ export enum FieldType {
 }
 
 /**
- * Maps SettingsField to C++ types to ensure correct binary writing.
- * Based on struct definitions in wheel_api.h
+ * Maps {@link SettingField} values to their corresponding {@link FieldType}.
+ *
+ * @remarks
+ * This mapping is based on the struct definitions in the original C++ `wheel_api.h`.
+ *
+ * @internal
  */
 export const FIELD_TYPE_MAP: Record<SettingField, FieldType> = {
   // EffectSettingsTypeDef

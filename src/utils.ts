@@ -7,6 +7,13 @@ import {
   VID,
 } from "./constants";
 
+/**
+ * Converts raw position value to degrees.
+ *
+ * @param rawPosition - The raw position value from the device.
+ * @param motionRange - The configured motion range in degrees.
+ * @returns The position in degrees.
+ */
 export function convertPositionToDegrees(
   rawPosition: number,
   motionRange = 900
@@ -14,7 +21,12 @@ export function convertPositionToDegrees(
   return (rawPosition * motionRange) / (2 * RAW_POSITION_MAX);
 }
 
-/** Normalized torque [-100, +100] */
+/**
+ * Normalizes raw torque value to a [-100, 100] range.
+ *
+ * @param rawTorque - The raw torque value from the device.
+ * @returns The normalized torque value between -100 and 100.
+ */
 export function normalizeTorque(rawTorque: number): number {
   return (rawTorque * 100) / RAW_TORQUE_MAX;
 }

@@ -1,3 +1,14 @@
+/**
+ * Binary field parser for HID report deserialization.
+ *
+ * @remarks
+ * Provides decorators and utilities for parsing binary HID reports
+ * into TypeScript class instances based on field metadata.
+ *
+ * @internal
+ * @packageDocumentation
+ */
+
 import { FieldType } from "./enums.js";
 
 const FIELDS_METADATA = Symbol("FIELDS_METADATA");
