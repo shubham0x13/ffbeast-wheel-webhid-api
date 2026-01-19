@@ -1,0 +1,14 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src/index.ts"],
+  "excludeInternal": true,
+  "readme": "README.md",
+  "out": "docs",
+  "name": "FFBeast Wheel WebHID API",
+  "navigationLinks": {
+    "GitHub": "https://github.com/shubham0x13/ffbeast-wheel-webhid-api"
+  },
+  "headings": {
+    "readme": false
+  }
+}

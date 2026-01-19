@@ -1,0 +1,69 @@
+{
+  "name": "@shubham0x13/ffbeast-wheel-webhid-api",
+  "version": "0.1.0",
+  "description": "WebHID based API for FFBeast Wheel",
+  "keywords": [
+    "ffbeast",
+    "webhid",
+    "hid",
+    "force-feedback",
+    "ffb",
+    "sim-racing",
+    "racing-wheel",
+    "steering-wheel",
+    "typescript"
+  ],
+  "homepage": "https://github.com/shubham0x13/ffbeast-wheel-webhid-api#readme",
+  "bugs": {
+    "url": "https://github.com/shubham0x13/ffbeast-wheel-webhid-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shubham0x13/ffbeast-wheel-webhid-api.git"
+  },
+  "license": "MIT",
+  "author": "Shubham Patel",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "docs": "typedoc",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@tsconfig/strictest": "^2.0.8",
+    "@types/node": "^25.0.9",
+    "@types/w3c-web-hid": "^1.0.6",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.0",
+    "tsdown": "^0.19.0",
+    "typedoc": "^0.28.16",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.53.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
