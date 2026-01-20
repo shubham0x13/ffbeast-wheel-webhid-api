@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shubham0x13/ffbeast-wheel-webhid-api.git"
+    "url": "git+https://github.com/shubham0x13/ffbeast-wheel-webhid-api.git"
   },
   "license": "MIT",
   "author": "Shubham Patel",
