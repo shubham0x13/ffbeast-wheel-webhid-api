@@ -1,6 +1,6 @@
 {
   "name": "@shubham0x13/ffbeast-wheel-webhid-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WebHID based API for FFBeast Wheel",
   "keywords": [
     "ffbeast",
