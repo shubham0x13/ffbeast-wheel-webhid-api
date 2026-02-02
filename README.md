@@ -1,5 +1,10 @@
 # FFBeast Wheel WebHID API
 
+[![Build Status](https://github.com/shubham0x13/ffbeast-wheel-webhid-api/actions/workflows/ci.yml/badge.svg)](https://github.com/shubham0x13/ffbeast-wheel-webhid-api/actions)
+[![Documentation](https://img.shields.io/badge/docs-online-blue)](https://shubham0x13.github.io/ffbeast-wheel-webhid-api/)
+[![NPM Version](https://img.shields.io/npm/v/@shubham0x13/ffbeast-wheel-webhid-api)](https://www.npmjs.com/package/@shubham0x13/ffbeast-wheel-webhid-api)
+[![License](https://img.shields.io/npm/l/@shubham0x13/ffbeast-wheel-webhid-api)](./LICENSE)
+
 A TypeScript WebHID-based API for communicating with [FFBeast](https://ffbeast.github.io/) force feedback wheel controllers directly from the browser.
 
 This library is a TypeScript rewrite of the original C/C++ API, adapted to use the [WebHID API](https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API) for browser-based applications. The original C/C++ source code is available in the [`reference_cpp`](https://github.com/shubham0x13/ffbeast-wheel-webhid-api/tree/main/reference_cpp) directory for reference.
